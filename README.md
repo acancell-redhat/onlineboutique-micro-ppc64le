@@ -1,7 +1,8 @@
 ## CREDITS
 
-This project was adapted from _https://github.com/go-micro/demo_ (which is itself based on the upstream _https://github.com/GoogleCloudPlatform/microservices-demo_).
+I initially developed this project for https://github.com/acancell-redhat-talks/ibm_txc_24_rome.
 
+It was adapted from _https://github.com/go-micro/demo_ (which is itself based on the upstream _https://github.com/GoogleCloudPlatform/microservices-demo_).
 A copy of the original files can be also found here in the folder _onlineboutique-micro_ORIGINAL_
 
 ## PORT TO _PPC64LE_
