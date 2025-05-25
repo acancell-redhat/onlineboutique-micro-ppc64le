@@ -16,7 +16,7 @@
 
 - **On a PPC64LE host**, build the image
 
-`podman build -t quay.io/acancell-redhat-talks/ibm_txc_24_rome/onlineboutique-micro-ppc64le/cartservice:latest demo/src/cartservice`
+`podman build -t quay.io/acancell-redhat/onlineboutique-micro-ppc64le/cartservice:latest demo/src/cartservice`
 
 - Login into _quay.io_
 
@@ -24,11 +24,11 @@
 
 - Push the image
 
-`podman push quay.io/acancell-redhat-talks/ibm_txc_24_rome/onlineboutique-micro-ppc64le/cartservice:latest`
+`podman push quay.io/acancell-redhat/onlineboutique-micro-ppc64le/cartservice:latest`
 
 - Connect to _quay.io_ GUI and make the repo public
 
-https://quay.io/acancell-redhat-talks/ibm_txc_24_rome/onlineboutique-micro-ppc64le/cartservice > Setting > Repository Visibility > Public
+https://quay.io/acancell-redhat/onlineboutique-micro-ppc64le/cartservice > Setting > Repository Visibility > Public
 
 - **Repeat for each service in `demo/src/`**
 
@@ -62,7 +62,7 @@ mv bashbrew ~/.local/bin/
 
 - Build the image
 
-`podman build -t quay.io/acancell-redhat-talks/ibm_txc_24_rome/onlineboutique-micro-ppc64le/valkey:latest valkey-container/7.2/alpine`
+`podman build -t quay.io/acancell-redhat/onlineboutique-micro-ppc64le/valkey:latest valkey-container/7.2/alpine`
 
 - Login into _quay.io_
 
@@ -70,11 +70,11 @@ mv bashbrew ~/.local/bin/
 
 - Push the image
 
-`podman push quay.io/acancell-redhat-talks/ibm_txc_24_rome/onlineboutique-micro-ppc64le/valkey:latest`
+`podman push quay.io/acancell-redhat/onlineboutique-micro-ppc64le/valkey:latest`
 
 - Connect to _quay.io_ GUI and make the repo public:
 
-https://quay.io/acancell-redhat-talks/ibm_txc_24_rome/onlineboutique-micro-ppc64le/valkey > Setting > Repository Visibility > Public
+https://quay.io/acancell-redhat/onlineboutique-micro-ppc64le/valkey > Setting > Repository Visibility > Public
 
 ## PREPARE AUTHN ON OCP
 

@@ -7,7 +7,7 @@ A copy of the original files can be also found here in the folder _onlineboutiqu
 
 ## PORT TO _PPC64LE_
 
-All container images were adapted and rebuilt to _ppc64le_. They can be found on: _https://quay.io/repository/acancell-redhat-talks/ibm_txc_24_rome/onlineboutique-micro-ppc64le/\<service\>_
+All container images were adapted and rebuilt to _ppc64le_. They can be found on: _https://quay.io/repository/acancell-redhat/onlineboutique-micro-ppc64le/<service\>_
 
 For an howto about how to adapted and rebuilt such images to _ppc64le_, see PREPARATION.md
 
