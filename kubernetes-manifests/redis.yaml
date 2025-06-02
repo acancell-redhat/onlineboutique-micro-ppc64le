@@ -24,7 +24,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
         - name: redis
-          image: quay.io/acancell-redhat-talks/linuxday_2024_rome/onlineboutique-micro-ppc64le/valkey:latest
+          image: quay.io/acancell-redhat/onlineboutique-micro-ppc64le/valkey:latest
           ports:
             - containerPort: 6379
           readinessProbe:

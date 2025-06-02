@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image: quay.io/acancell-redhat-talks/linuxday_2024_rome/onlineboutique-micro-ppc64le/paymentservice:latest
+          image: quay.io/acancell-redhat/onlineboutique-micro-ppc64le/paymentservice:latest
           ports:
             - containerPort: 50051
           env:

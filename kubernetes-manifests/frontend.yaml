@@ -17,7 +17,7 @@ spec:
       serviceAccountName: go-micro 
       containers:
         - name: server
-          image: quay.io/acancell-redhat-talks/linuxday_2024_rome/onlineboutique-micro-ppc64le/frontend:latest
+          image: quay.io/acancell-redhat/onlineboutique-micro-ppc64le/frontend:latest
           ports:
             - containerPort: 8080
           readinessProbe:
