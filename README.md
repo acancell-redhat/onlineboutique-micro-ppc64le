@@ -33,5 +33,5 @@ For an howto about the prerequisites to apply on OCP, see PREPARATION.md
 - `oc new-project onlineboutique-micro-ppc64le`
 - `oc apply -f authz.yaml`
 - `oc adm policy add-scc-to-user anyuid -z go-micro -n onlineboutique-micro-ppc64le`
-- `for manifest in *; do oc apply -f $manifest; done`
+- `for manifest in *.yaml; do oc apply -f $manifest; done`
 - `oc expose service frontend`
